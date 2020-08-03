@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Learn jQuery (Advanced)">
+    <meta name="author" content="Khaled">
+
+    <title>Tags System</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/mf-tags.min.css">
+</head>
+
+
+<body data-theme-skin="teal">
+
+    <main role="main" class="container">
+
+       <section class="wrappers">
+
+            <div class="tags">
+                <span class="title">Please write tag here and click on button to show your tags!</span>
+                
+                <!-- ************************************************************************  -->
+                <div class="mf-tags">
+                    <!-- wrapper input -->
+                    <div class="wrapper-tags">
+                        <div class="view-tags">
+                            <input type="text" class="input-tag" placeholder="Please write tags!">
+                        </div>
+                    </div>
+                    <!-- ************************************************************************  -->
+                    <!-- show errors  -->
+                    <div class="mf-tags-show-error length">Please write tag bettwen 1 to 20 chracters.</div>
+                    <div class="mf-tags-show-error lengthTags">You can&#39;t add more than 10 tags.</div>
+                    <div class="mf-tags-show-error validChar">Please type &#91;A - z&#93; or &#91; أ - ي &#93; chracters.</div>
+                    <div class="mf-tags-show-error already">Sorry this tag in already exist.</div>
+                    <div class="mf-tags-show-error startChar">You must start tag with an alphabet.</div>
+                    <!-- ************************************************************************  -->
+                    <!-- show staistics  -->
+                    <div class="mf-view-statistics">
+                        <div class="count-character-tag">
+                            <span></span>
+                            characters left.
+                        </div>
+                        <div class="count-tags">
+                            <span></span>
+                            tags left.
+                        </div>
+                    </div>
+                </div>
+                <!-- ************************************************************************  -->
+
+                
+                <button class="btn btn-info btn-block add-tags">Add Tags</button>
+            </div>
+        </section>
+    </main>
+    <!-- /.container -->
+
+
+    <!-- Scripts
+    ================================================== -->
+    <script src="js/jquery-1.12.1.min.js"></script>
+    <script src="js/mf-tags.min.js"></script>
+    <script src="js/custom.js"></script>
+</body>
+</html>

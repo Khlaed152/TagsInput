@@ -1,0 +1,204 @@
+/* line 21, mf-tags.scss */
+.mf-tags .wrapper-tags {
+  background-color: #FFF;
+  border: 1px solid #DDD;
+  min-height: 100px;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: text;
+  position: relative;
+  transition: all 0.2s ease-in-out;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.1), 0 1px 3px 0 rgba(0, 0, 0, 0.08), 0 2px 1px -2px rgba(0, 0, 0, 0.1);
+}
+/* line 31, mf-tags.scss */
+.mf-tags .wrapper-tags.focus {
+  border-color: rgba(101, 175, 255, 0.5);
+  box-shadow: 0 0 1px 0.09rem rgba(101, 175, 255, 0.5);
+}
+/* line 35, mf-tags.scss */
+.mf-tags .wrapper-tags .mf-tags-placeholder {
+  font-size: 15px;
+  color: #a9a8a8;
+  position: absolute;
+  padding-left: 5px;
+  padding-right: 5px;
+  display: none;
+}
+/* line 45, mf-tags.scss */
+.mf-tags .wrapper-tags .view-tags {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+/* line 49, mf-tags.scss */
+.mf-tags .wrapper-tags .view-tags .input-tag {
+  display: inline-block;
+  border: 0;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-bottom: 5px;
+  flex-grow: 1;
+  width: 10px;
+  min-width: 10px;
+  font-size: 15px;
+  color: #333;
+  background-color: inherit;
+}
+/* line 63, mf-tags.scss */
+.mf-tags .wrapper-tags .view-tags .input-tag:focus {
+  outline: 0;
+}
+/* line 65, mf-tags.scss */
+.mf-tags .wrapper-tags .view-tags .tag {
+  display: inherit;
+  align-items: center;
+  font-size: 12px;
+  padding: 3px 6px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  background-color: #1d94e2;
+  color: #FFF;
+  border-radius: 2px;
+  cursor: default;
+  -webkit-user-select: text;
+  -moz-user-select: text;
+  -o-user-select: text;
+  user-select: text;
+}
+/* line 80, mf-tags.scss */
+.mf-tags .wrapper-tags .view-tags .tag::selection {
+  background-color: #ebff00;
+  color: #e65508;
+}
+/* line 84, mf-tags.scss */
+.mf-tags .wrapper-tags .view-tags .tag.optimize-height-on-hide {
+  white-space: nowrap;
+  overflow: hidden;
+  max-height: 24px;
+}
+/* line 89, mf-tags.scss */
+.mf-tags .wrapper-tags .view-tags .tag i {
+  cursor: pointer;
+  margin-left: 6px;
+  color: #444;
+  font-size: 10px;
+  width: 14px;
+  height: 14px;
+  background-color: #EEE;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 13.5px;
+  transition: 0.2s;
+}
+/* line 101, mf-tags.scss */
+.mf-tags .wrapper-tags .view-tags .tag i:hover {
+  background-color: #d80505;
+  color: #FFF;
+}
+/* line 108, mf-tags.scss */
+.mf-tags .wrapper-tags.one-line {
+  min-height: auto;
+  padding: 0;
+}
+/* line 111, mf-tags.scss */
+.mf-tags .wrapper-tags.one-line .mf-tags-placeholder {
+  margin: 8px;
+}
+/* line 114, mf-tags.scss */
+.mf-tags .wrapper-tags.one-line .view-tags {
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  scrollbar-face-color: #124d88;
+  scrollbar-track-color: #b7c9db;
+  padding: 8px 10px;
+}
+/* line 2, mf-tags.scss */
+.mf-tags .wrapper-tags.one-line .view-tags::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+/* line 6, mf-tags.scss */
+.mf-tags .wrapper-tags.one-line .view-tags::-webkit-scrollbar-thumb {
+  background-color: #124d88;
+  border-radius: 0;
+}
+/* line 10, mf-tags.scss */
+.mf-tags .wrapper-tags.one-line .view-tags::-webkit-scrollbar-track {
+  background-color: #b7c9db;
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  border-radius: 0;
+}
+/* line 119, mf-tags.scss */
+.mf-tags .wrapper-tags.one-line .view-tags .input-tag {
+  margin-bottom: 0;
+  max-width: 300px;
+}
+/* line 123, mf-tags.scss */
+.mf-tags .wrapper-tags.one-line .view-tags .tag {
+  margin-bottom: 0;
+}
+/* line 129, mf-tags.scss */
+.mf-tags .mf-view-statistics {
+  margin-top: 10px;
+  font-size: 13px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10px;
+}
+/* line 136, mf-tags.scss */
+.mf-tags .mf-view-statistics > div span {
+  color: #0a72b7;
+  font-weight: bold;
+  font-family: Arial, sans-serif;
+}
+/* line 141, mf-tags.scss */
+.mf-tags .mf-view-statistics > div.max span,
+.mf-tags .mf-view-statistics > div.max {
+  color: #de1717;
+  font-size: 14px;
+  animation: flash 1s ease-in-out infinite;
+}
+/* line 148, mf-tags.scss */
+.mf-tags .mf-tags-show-error {
+  color: #c62a2a;
+  font-size: 14px;
+  padding: 5px 10px;
+  display: none;
+}
+
+@-webkit-keyframes flash {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-moz-keyframes flash {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes flash {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/*# sourceMappingURL=mf-tags.css.map */

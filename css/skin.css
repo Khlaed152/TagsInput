@@ -1,0 +1,35 @@
+[data-theme-skin="red"] .skin-color {
+    color: #c62727 !important;
+}
+[data-theme-skin="red"] .skin-bg-color {
+    color: #FFF !important;
+    background-color: #c62727 !important;
+}
+[data-theme-skin="blue"] .skin-color {
+    color: #3498db !important;
+}
+[data-theme-skin="blue"] .skin-bg-color {
+    color: #FFF !important;
+    background-color: #3498db !important;
+}
+[data-theme-skin="teal"] .skin-color {
+    color: #2e8865 !important;
+}
+[data-theme-skin="teal"] .skin-bg-color {
+    color: #FFF !important;
+    background-color: #2e8865 !important;
+}
+[data-theme-skin="green"] .skin-color {
+    color: #07a35c !important;
+}
+[data-theme-skin="green"] .skin-bg-color {
+    color: #FFF !important;
+    background-color: #07a35c !important;
+}
+[data-theme-skin="purple"] .skin-color {
+    color: #a33bd9 !important;
+}
+[data-theme-skin="purple"] .skin-bg-color {
+    color: #FFF !important;
+    background-color: #a33bd9 !important;
+}

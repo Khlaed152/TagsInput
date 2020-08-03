@@ -1,0 +1,82 @@
+html, body {
+    font-family: Tahoma, Arial, sans-serif;
+    font-size: 16px;
+}
+.btn {
+    cursor: pointer;
+}
+.hide,
+.hiddendiv {
+    display: none;
+}
+
+/* Start add tags */
+.wrappers {
+    max-width: 500px;
+    margin: 50px auto;
+}
+.tags {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+.tags .title {
+    display: inline-block;
+    margin: 10px 0;
+    color: #888;
+}
+.tags .btn {
+    margin: 20px 0;    
+}
+
+/* End add tags */
+
+/* Start show tags */
+.show-all-tags {
+    font-family: Arial, sans-serif;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+.show-all-tags .show-tags .title {
+    color: #666;
+    font-size: 18px;
+    font-weight: bold;
+}
+.show-all-tags .show-tags .wrapper-view-tags {
+    padding: 10px 10px 10px 20px;
+    background-color: #EEE;
+    border-radius: 4px;
+    position: relative;
+}
+.show-all-tags .show-tags .wrapper-view-tags .hide-array {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 30px;
+    height: 30px;
+    line-height: 28px;
+    background-color: #c11d1d;
+    color: #FFF;
+    text-align: center;
+    cursor: pointer;
+}
+.show-all-tags .show-tags .tags .tag {
+    padding-left: 25px;
+}
+.show-all-tags .show-tags .tags .tag span {display: inline-block}
+.show-all-tags .show-tags .tags .tag .index {
+    color: #3498db;
+    font-weight: bold;
+    width: 40px;
+}
+.show-all-tags .show-tags .tags .tag .value {
+    -webkit-user-select: text;
+    -moz-user-select: text;
+    -o-user-select: text;
+    user-select: text;
+}
+/* End show tags */
